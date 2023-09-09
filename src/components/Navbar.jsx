@@ -5,13 +5,13 @@ const Navbar = () => {
     <div className="navbar navbar-inverse">
       <div className="container-fluid">
         <div className="navbar-header">
-          <Link to="/habit_tracker" className="navbar-brand">
+          <Link to="/" className="navbar-brand">
             Habit Tracker
           </Link>
         </div>
         <ul className="nav navbar-nav">
           <li className="active">
-            <Link to="/habit_tracker">Day View</Link>
+            <Link to="/">Day View</Link>
           </li>
           <li className="active">
             <Link to="/weekly">Weekly View</Link>

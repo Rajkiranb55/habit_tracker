@@ -9,7 +9,7 @@ function App() {
       <div className="cotainer">
         <Navbar />
         <Routes>
-          <Route path="/habit_tracker" element={<Homepage />} />
+          <Route path="/" element={<Homepage />} />
           <Route path="/weekly" element={<Weekly />} />
         </Routes>
       </div>

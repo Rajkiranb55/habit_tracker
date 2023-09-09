@@ -1,6 +1,6 @@
 {
   "name": "habit_tracker",
-  "homepage": "https://rajkiranb55.github.io/habit_tracker/",
+  "homepage": "https://habit-tracker-sigma-bay.vercel.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
