@@ -1,13 +1,106 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navbar-right {
+  margin-right: 40px;
+}
+.container {
+  margin: auto;
+}
+.addHabit {
+  margin: auto;
+  width: fit-content;
+  background-color: lightgray;
+  padding: 10px;
+  margin-top: 50px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.addHabit input {
+  border: 2px;
+  background-color: lightgray;
+  font-weight: 600;
+  outline: none;
+  font-size: 20px;
+}
+.habitCardContainer {
+  width: 80%;
+  margin: auto;
+}
+
+.habitCard {
+  width: 100%;
+  height: fit-content;
+  border: 1px solid #a1f7e1;
+  background-color: lightgray;
+  padding: 10px;
+  margin: 20px 0px;
+}
+
+.habitCardTitle {
+  display: flex;
+  justify-content: space-between;
+}
+.habitActionName {
+  display: flex;
+  cursor: pointer;
+}
+
+.cardName {
+  font-weight: 600;
+  color: rgb(118, 190, 70);
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.weeklyProgress {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.habitCardCheckIcon {
+  font-size: 20px;
+  color: black;
+}
+
+.habitCardCrossIcon {
+  font-size: 20px;
+  color: red;
+}
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+.weeklyCard {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid grey;
+  margin: 50px 0px;
+  padding: 20px;
+  background-color: white;
+}
+
+.habitTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(0, 132, 255);
+  display: flex;
+  justify-content: space-between;
+}
+
+.weeklyDate {
+  margin-top: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.singleDay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid #ddd; */
+  padding: 5px;
+  border-radius: 5px;
+  background-color: antiquewhite;
 }
