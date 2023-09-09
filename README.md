@@ -1,3 +1,52 @@
+# Habit Tracker
+
+A React Habit Tracker App that allows user to add,update and delete Habits and keep track of progress.
+
+## Key Features
+
+- Add Habit
+- Update Habit Staus
+- Delete Habit
+- See Weekly Status
+
+## Demo
+
+Check out the live demo of the application at :
+
+https://habit-tracker-sigma-bay.vercel.app/
+
+## Prerequisites
+
+A web browser (e.g. Google Chrome, Firefox, Safari)
+
+An internet connection
+
+A code editor (e.g. VS Code)
+
+## Technologies used
+
+1.HTML
+
+2.CSS
+
+3.JAVASCRIPT
+
+4.React JS
+
+## Project Folder Structure
+
+    .
+    ├── build                   # Compiled files
+    ├── public                  # Contains index.html
+    ├── src                     # Contains all main code files
+        ├── Components          # Contains all individual react componets used in the App
+        ├── Redux               # Contains Reducers
+        ├── App.js              # The main component
+        ├── index.js            # Starter File
+        ├── index.css           # Styles
+        ├── actions.js          # Contains all actions
+    └── README.md
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +117,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Authors
+
+- [@Rajkiranb55](https://github.com/Rajkiranb55)
